@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Design tips </title>
-    <link rel="stylesheet" href="style.css">
+    <title>Design tips</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&display=swap" rel="stylesheet">    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/f2a24dc091.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -56,14 +59,14 @@
     </div>
 
     <header>
-      <nav class="navbar fixed-top navbar-expand-lg bg-white">
+      <nav class="navbar fixed-top navbar-expand-lg">
         <div class="container-xxl">
           <a class="navbar-brand d-flex gap-2 align-items-center" href="#">
             <i class="fa-regular fa-comment fa-flip-horizontal fs-5 text-primary"></i>
-            <h1 class="h2 mb-0">Design tips</h1>
+            <h1 class="h2 mb-0 logo">Design tips</h1>
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler border border-0 text-dark"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse p-3" id="navbarTogglerDemo02">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -92,17 +95,18 @@
           <div class="row justify-content-between">
             <div class="col-lg-5 padding-top-10 pb-5 d-flex flex-column justify-content-between">
               <h1 class="banner-title">Your own Interior Designer is always on call and ready to help </h1>
-              <div class="fw-bold fs-5 w-50">Initial Consultation with Interior Designer - <span class="text-primary">$50</span></div>
-              <button type="button" class="btn btn-primary btn-lg my-3 my-sm-5 col-12 col-sm-6 mx-auto ms-sm-0 d-block" data-bs-toggle="modal" data-bs-target="#contactForm">Contact</button>
-              <div class="d-flex gap-3">
+              <div class="fw-bold fs-5 w-75 w-sm-50">Initial Consultation with Interior Designer - <span class="text-primary">$50</span></div>
+              <button type="button" class="btn btn-primary btn-lg my-5 col-12 col-sm-6 mx-auto ms-sm-0 d-block" data-bs-toggle="modal" data-bs-target="#contactForm">Contact</button>
+              <div class="d-flex gap-3 mt-sm-4">
                 <i class="fa-solid fa-comments fs-3"></i>
                 <span>Online video-consultation <br><span class="text-secondary"> WhatsApp, Facetime, Skype, Zoom</span></span>
               </div>
             </div>
-            <div class="col-lg-5 padding-top-10 pb-5 ps-5 why-section d-flex flex-column">
-              <h3 class="text-secondary fs-6">Why Us?</h3>
-              <h4 class="fw-normal py-3">Watch this video about why it is profitable and convenient for you</h4>
-              <div class="video-cover mt-auto">
+            <div class="col-lg-5 pb-5 ps-sm-5 why-section d-flex flex-column">
+              <div class="why-section-decor"></div>
+              <span class="text-secondary fs-6">Why Us?</span>
+              <h4 class="fw-normal py-2 py-sm-3 w-75">Watch this video about why it is profitable and convenient for you</h4>
+              <div class="video-cover mt-5 mt-sm-auto">
                 <i  type="button" data-bs-toggle="modal" data-bs-target="#video" class="fa-solid fa-play btn-round"></i>
               </div>
             </div>
@@ -111,47 +115,48 @@
           <div class="pt-3" id="whyUs">
             <div class="row justify-content-between py-lg-5 my-sm-3 my-md-5">
               <div class="col-md-5">
-                <h3 class="fs-2 col-12 col-lg-6">Why our service is convenient for you</h3>
+                <h3 class="col-12 col-lg-10">Why our service is convenient for you</h3>
               </div>
               <div class="col-md-6 border-sm-start ps-sm-4">
-                <div class="fs-5 mb-1">You can receive consultation from our professional interior designer at any time on any of your questions on design of your home.</div>
+                <div class="fs-5 mb-2">You can receive consultation from our professional interior designer at any time on any of your questions on design of your home.</div>
                 <div class="fw-bold text-uppercase fs-5">It is affordable!</div>
               </div>
             </div>
           </div>
 
 
-          <div class="my-5">
-            <h2 class="mb-3">We can help you with </h2>
+          <div class="my-5 products-section">
+            <div class="decorate-block"></div>
+            <h2 class="mb-5 pb-3 text-uppercase">We can help you with </h2>
             <div>
               <div class="row">
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-3 mb-3">
                   <img src="./assets/DSC_2252.jpg" class="card-img-top w-100 mx-auto d-block" alt="...">
-                  <h5 class="card-title my-3">Choosing the right apartment or house to buy</h5>
+                  <h5 class="card-title my-3 text-small">Choosing the right apartment or house to buy</h5>
                 </div>
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-3 mb-3">
                   <img src="./assets/DSC_2252.jpg" class="card-img-top w-100 mx-auto d-block" alt="...">
-                  <h5 class="card-title my-3">Planning your apartment or house</h5>
+                  <h5 class="card-title my-3 text-small">Planning your apartment or house</h5>
                 </div>
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-3 mb-3">
                   <img src="./assets/DSC_2252.jpg" class="card-img-top w-100 mx-auto d-block" alt="...">
-                  <h5 class="card-title my-3">Choosing a combination materials, textures, and colors</h5>
+                  <h5 class="card-title my-3 text-small">Choosing a combination materials, textures, and colors</h5>
                 </div>
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-3 mb-3">
                   <img src="./assets/DSC_2252.jpg" class="card-img-top w-100 mx-auto d-block" alt="...">
-                  <h5 class="card-title my-3">Discovering your style, choosing your furniture within your budget </h5>
+                  <h5 class="card-title my-3 text-small">Discovering your style, choosing your furniture within your budget </h5>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="bg-aliceblue pt-3" id="prices">
-          <div class="container py-2 py-sm-5">
-            <h2>Consultation cost</h2>
-            <form class="card mx-auto mt-5 consultation-form col-12 col-md-10 col-lg-6" id="form">
-              <legend class="card-header">Online video consultation</legend>
-              <div class="card-body row row-cols-sm-2">
+        <div class="consultation-section pt-3 pb-5" id="prices">
+          <div class="container py-2 pb-sm-5 pt-sm-0 px-4">
+            <h2 class="text-lg">Consultation cost</h2>
+            <form class="card mx-auto mt-5 consultation-form col-12 col-md-10 col-lg-6 py-5 px-sm-3" id="form">
+              <legend class="ms-3 mb-4 text-primary text-uppercase">Online video consultation</legend>
+              <div class="card-body row row-cols-1 row-cols-sm-2">
                 <div class="col ">
                   <label for="15min" class="plan">
                     <input type="radio" id="15min" name="consultation" value="Online 15 minutes $17" checked>
@@ -188,8 +193,8 @@
                   </label>
                 </div>
               </div>
-              <div class="mb-3">
-                <button type="submit" class="btn btn-lg btn-primary mx-auto d-block" data-bs-toggle="modal" data-bs-target="#contactForm">Order Service</button>
+              <div class="mb-3 px-3">
+                <button type="submit" class="btn btn-lg btn-primary mx-auto mt-sm-3 d-block col-12 col-sm-8" data-bs-toggle="modal" data-bs-target="#contactForm">Order Service</button>
               </div>
             </form>
           </div>
@@ -198,31 +203,30 @@
         <div class="container pt-3" id="about">
           <div class="row py-5">
             <div class="col-md">
-              <h2>Who are we</h2>
-              <p class="fw-bold fs-5">We are a team of interior designers Amouge Design</p>
-              <p class="fs-5">We decided to create an affordable service so that most of the people gained access to professional knowledge of experienced interior designers.</p>
-              <p class="fst-italic fs-5">We want your house to by stylish!</p>
+              <h2 class="text-lg mt-sm-0">Who are we</h2>
+              <p class="fw-semibold fs-5">We are a team of interior designers Amouge Design</p>
+              <p class="fs-5 my-5 my-sm-4">We decided to create an affordable service so that most of the people gained access to professional knowledge of experienced interior designers.</p>
+              <p class="fst-italic fs-5 mb-5">We want your house to by stylish!</p>
             </div>
-            <div class="col-md">
+            <div class="col-md mt-sm-5">
               <div class="video-cover mt-auto">
                 <i  type="button" data-bs-toggle="modal" data-bs-target="#video" class="fa-solid fa-play btn-round"></i>
               </div>
             </div>
           </div>
         </div>
-        
 
         <div class="bg-aliceblue">
-          <h2 class="mx-auto container fs-1 py-5">Team of 15 designers with over 5 years of experience each</h2>
+          <h2 class="mx-auto container text-lg py-5">Team of 15 designers with over 5 years of experience each</h2>
         </div>
 
-        <div class="container py-5">
+        <div class="container pb-5 mt-sm-5">
           <h2 class="mb-3">Our projects</h2>
-          <div class="row">
-            <img src="./assets/DSC_2252.jpg" class="col-sm-6 col-md-3 my-3" alt="...">
-            <img src="./assets/DSC_2252.jpg" class="col-sm-6 col-md-3 my-3" alt="...">
-            <img src="./assets/DSC_2252.jpg" class="col-sm-6 col-md-3 my-3" alt="...">
-            <img src="./assets/DSC_2252.jpg" class="col-sm-6 col-md-3 my-3" alt="...">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 px-3 px-sm-0">
+            <img src="./assets/DSC_2252.jpg" class="col my-3 proj-img p-0 px-sm-2" alt="...">
+            <img src="./assets/DSC_2252.jpg" class="col my-3 proj-img p-0 px-sm-2" alt="...">
+            <img src="./assets/DSC_2252.jpg" class="col my-3 proj-img p-0 px-sm-2" alt="...">
+            <img src="./assets/DSC_2252.jpg" class="col my-3 proj-img p-0 px-sm-2" alt="...">
           </div>
         </div>
       </div>
